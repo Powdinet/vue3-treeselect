@@ -18,8 +18,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: path.resolve(__dirname, 'src/index.js'),
-            name: 'r2rkaVue3Treeselect',
-            fileName: 'r2rka-vue3-treeselect',
+            name: 'Vue3Treeselect',
+            fileName: 'vue3-treeselect',
         },
         commonjsOptions: {
             requireReturnsDefault: "preferred",
