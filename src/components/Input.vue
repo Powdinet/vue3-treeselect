@@ -14,7 +14,6 @@
              @input="onInput"
              @blur="onBlur"
              @keydown="onKeyDown"
-             @mousedown="onMouseDown"
       />
       <template v-if="needAutoSize">
         <div ref="sizer" class="vue-treeselect__sizer">{{ value }}</div>
@@ -244,15 +243,6 @@
           // istanbul ignore else
           instance.openMenu()
         }
-        }
-      },
-
-      onMouseDown(evt) {
-        // istanbul ignore next
-        if (this.value.length) {
-          // Prevent it from bubbling to the top level and triggering `preventDefault()`
-          // to make the textbox unselectable
-          evt.stopPropagation()
         }
       },
 
