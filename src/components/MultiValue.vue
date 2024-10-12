@@ -1,4 +1,5 @@
 <template>
+   <transition-group class="vue-treeselect__multi-value" tag="div" name="vue-treeselect__multi-value-item--transition" appear={true} >
   <MultiValueItem v-for="node in multiValueItems" :key="`multi-value-item-${node.id}`" :node="node">
     <template v-if="$slots['value-label']" #value-label="{ node }">
       <slot name="value-label"
@@ -10,6 +11,7 @@
     </div>
     <Placeholder key="placeholder" v-if="!hasValue && !isFocused" />
     <Input ref="input" key="input" />
+  </transition-group>
 </template>
 
 <script>
