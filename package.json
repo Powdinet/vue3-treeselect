@@ -1,6 +1,6 @@
 {
   "name": "@powdinet/vue3-treeselect",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Tree select hierarchical component for vue 3 (next)",
   "main": "dist/vue3-treeselect.mjs",
   "unpkg": "dist/vue3-treeselect.umd.js",

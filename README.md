@@ -1,7 +1,7 @@
 # @powdinet/vue3-treeselect
 > [!NOTE]
-> Forked from public archive https://r2rka.github.io/vue3-treeselect-demo/ for testing and research purposes.
-> Which was forked from public archive https://megafetis.github.io/vue3-treeselect-demo/ to continue its development
+> Forked from public archive https://r2rka.github.io/vue3-treeselect-demo/ for testing, research, and potential fixes.
+> Which was forked from public archive https://megafetis.github.io/vue3-treeselect-demo/ to continue its development.
 
 
 
